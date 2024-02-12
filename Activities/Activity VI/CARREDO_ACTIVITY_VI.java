@@ -6,8 +6,8 @@ import java.util.Scanner
      int sec = sc.nextInt();
 
      } while(sec>=0) {
-        System,out.println(count);
-        System.tou.println
+        System.out.println(count);
+        System.out.println
          sec--;{
   }
 }
