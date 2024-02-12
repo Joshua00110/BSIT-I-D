@@ -9,5 +9,6 @@ import java.util.Scanner
         System.out.println(count);
         System.out.println
          sec--;{
-  }
+      }
+   }
 }
