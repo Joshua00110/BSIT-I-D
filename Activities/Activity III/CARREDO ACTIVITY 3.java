@@ -1,14 +1,15 @@
-import java.util.scanner
-public class CARREDO ACTIVITY 3{
-     public static void main(string[]args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter Temperature : ");
-         Int temp = sc.nextInt();
-
-         if (temp >= 100 )
-           System.out.println("Boiling");
-     }else
-            System.out.println("Not Boiling");
-
+import java.util.Scanner;
+public class CARREDO_ACTIVITY_III {
+    public static void main(String[] args) {
+        int temp;
+        Scanner input = new Scanner (System.in);
+        System.out.print("Enter the temperature (in celcius): ");
+        temp = input.nextInt();
+         if (temp >= 100){
+            System.out.println("Boiling");
+         }else 
+         System.out.println("Not boiling");
+         
+        
     }
 }
