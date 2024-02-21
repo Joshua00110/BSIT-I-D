@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class PIEDAD_ACTIVITY_VI{
     public static void main(String []args){
         Scanner countdown = new Scanner(System.in);
-        System.out.print("Input number: ");
+        System.out.print("Enetr your number: ");
         int count = countdown.nextInt();
 
         while(count >=0){
