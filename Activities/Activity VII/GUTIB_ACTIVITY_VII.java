@@ -11,7 +11,7 @@ public class GUTIB_ACTIVITY_VII {
         while (i <= num) {
             factorial *= i;
             i++;
-        
+        }
         System.out.println("The factorial");
     }
 }
