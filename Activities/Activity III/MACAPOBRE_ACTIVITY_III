@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class MACAPOBRE_ACTIVITY_III {
+    public static void main(String []args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter Your Celsius: ");
+        int temp = sc.nextInt();
+
+        if (temp>=150){
+            System.out.println("Boiling");
+        } else {
+            System.out.println("Not Boiling");
+        }
+    }
+}
