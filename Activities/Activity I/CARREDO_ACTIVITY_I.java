@@ -1,4 +1,4 @@
-public class MAGSAYO_ACTIVITY_I{
+public class CARREDO_ACTIVITY_I{
     public static void main(String[] args) {
         int a = 50,b=50, c=43;
         
