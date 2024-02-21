@@ -1,17 +1,18 @@
 import java.util.Scanner;
 public class MACAPAZ_ACTIVITY_III{
+public static void main(String[]args){
+    
+    Scanner sc = new Scanner(System.in);
+    int temp;
 
-    public static void main(String []args){
+    System.out.println("Enter Celcius: ");
+    temp = sc.nextInt();
+    
+    if(temp>=100){
+System.out.println("Boiling");
 
-        Scanner sc = new Scanner(System.in);
-        int temp;
+    }else
+    System.out.println("Not boiling");
+}
 
-        System.out.println( "Enter Celcius: ");
-        temp = sc.nextInt();
-        if(temp>=100){
-            System.out.println("Boiling");
-        }else{
-            System.out.println("Not Boiling");
-        }        
-    }
 }
