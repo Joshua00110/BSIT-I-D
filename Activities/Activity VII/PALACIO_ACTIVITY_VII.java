@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class  PALAO_ACTIVITY_VII{
+public class  PALACIO_ACTIVITY_VII{
 
     public static void main(String[]args){
 
