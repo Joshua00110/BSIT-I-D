@@ -21,4 +21,3 @@ public class GUTIB_ACTIVITY_V {
     }
 
 }
-}
