@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class CARREDO_ACTIVITY_III {
-    public static void main(String[] args) {
-        int temp;
+ public static void main(String[] args) {
+     int temp; 
         Scanner input = new Scanner (System.in);
         System.out.print("Enter the temperature (in celcius): ");
         temp = input.nextInt();
@@ -10,6 +10,5 @@ public class CARREDO_ACTIVITY_III {
          }else 
          System.out.println("Not boiling");
          
-        
     }
 }
