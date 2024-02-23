@@ -1,12 +1,13 @@
 public class CARREDO_ACTIVITY_I{
     public static void main(String[] args) {
-        int a = 50,b=50, c=43;
+        int a = 50;
+        int b = 50;
+        int c = 43;
         
         int sum = a + b + c;
         int diff = a - b - c;
         int prod = a * b * c;
         int quo = a / c / b;
-
 
         System.out.println("The sum is " + sum);
         System.out.println("The difference is " + diff);
