@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class CARREDO_ACTIVITY_VII{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -12,7 +11,8 @@ public class CARREDO_ACTIVITY_VII{
                 factorial *= i;
                 i++;
             }1
-            System.out.println("The factorial");     
+            System.out.println("The factorial");  
+        
         }
     }
 }      
