@@ -1,7 +1,8 @@
 import java.util.Scanner;
 public class CARREDO_ACITIVITY_VI {
-    public static void main(String[] args) {
-       Scanner sc = new Scanner(System.in);
+ public static void main(String[] args) {
+     Scanner sc = new Scanner(System.in);
+        
        int sec;
         System.out.print("Enter time in seconds: ");
          sec = sc.nextInt();
