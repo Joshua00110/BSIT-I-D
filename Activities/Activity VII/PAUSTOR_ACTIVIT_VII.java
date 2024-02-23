@@ -1,30 +1,19 @@
-import java.util.Scanner:
-public class PAUSTOR_ACTIVITY_VII{
-    public static void main(String[]args){
-        Scanner fc= new Scanner(System.in);
-        String user=fc.nextInt();
-        System.out.printIn(s:"Input your number ");
-        long num=fc.nextlong();
-        long factorial =1;
-        for(long i=1; i,num; i++){
+import java.util.Scanner;
+public class PAUSTOR_ACTIVIT_VII {
 
-             
+    public static void main(String[] args) {
+        Scanner fc = new Scanner(System.in);
 
-             factorial*=i;
-             }
+         System.out.print("Input ");
+         long num = fc.nextLong();
+         long factorial = 1;
 
-             System.out.println(x:Factorial of"+num+5" num");
-
-             }
-
-             }
-            
-            }    
-
-   
-
-   }
-
+         for(long i = 1; i<=num;i++){
+            factorial *=i;
+         }
+         System.out.print(factorial);
+    }
+}
             
             
         
