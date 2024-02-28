@@ -8,10 +8,10 @@ public class CALUNSAG_ACTIVITY_V{
             System.out.print("Child");
 
         }
-        if else (age<=12&&age<=17){
+        if else (age<=12 && age<=17){
             System.out.print("Teen");
 
-        if else (age>=18&&age<=64){
+        if else (age>=18 && age<=64){
             System.out.print("Adult");
         }
     
