@@ -4,8 +4,8 @@ public class CALUNSAG_ACTIVITY_III{
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter your Celcius: ");
 
-        int temp = sc.nextInt();
-        if (temp >= 100){
+        int temperature = sc.nextInt();
+        if (temperature >= 100){
             System.out.print(" Boiling");
             
         }else{
