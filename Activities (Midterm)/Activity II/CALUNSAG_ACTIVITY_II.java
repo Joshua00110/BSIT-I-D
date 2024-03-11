@@ -5,7 +5,7 @@ public class CALUNSAG_ACTIVITY_II {
 
         double []score = new double[10];
         double average;
-        double sum=0;
+        int sum=0;
 
         for(int i=0; i<score.length;i++){
           System.out.println("Enter your score " +(i+1)+": ");
@@ -13,8 +13,8 @@ public class CALUNSAG_ACTIVITY_II {
           sum += score[i];
 
         }
-        average=sum/10;
-         System.out.println(average);
+        average=(double)sum/10;
+         System.out.println("average: "+average);
     }
 }
 
