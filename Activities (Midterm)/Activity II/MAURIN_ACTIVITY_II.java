@@ -14,5 +14,6 @@ public class MAURIN_ACTIVITY_II{
 
         double average = sum/scores.length;
 
-        System.out.println("Average score: " +average);    }
+        System.out.println("Average score: " +average);    
+    }
 }
