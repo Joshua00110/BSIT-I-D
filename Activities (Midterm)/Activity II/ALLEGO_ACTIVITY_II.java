@@ -15,7 +15,7 @@ public class ALLEGO_ACTIVITY_II {
 
   double average = (double) sum / scores.length;
 
-System.out.print(average);
+  System.out.print(average);
  
  }
 }
