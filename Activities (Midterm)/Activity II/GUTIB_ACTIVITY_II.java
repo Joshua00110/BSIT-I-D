@@ -1,23 +1,25 @@
 import java.util.Scanner;
 
 public class GUTIB_ACTIVITY_II {
-
     public static void main(String[] args) {
-        Scanner activity = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         double[] scores = new double[10];
-
-        for (int s = 0; s < 10; s++) {
-            System.out.println("Enter Score" + (s + 1) + ": ");
-            scores[s] = activity.nextDouble();
-
+        
+        // Prompt for input
+        System.out.println("Enter 10 scores:");
+        for (int i = 0; i < 10; i++) {
+            System.out.print("Enter score " + (i + 1) + ": ");
+            scores[i] = scanner.nextDouble();
         }
-
+        
+        // Calculate average
         double sum = 0;
-        for (double s : scores) {
-            sum += s;
+        for (double score : scores) {
+            sum += score;
         }
-        double average = sum / scores.length;
-        System.out.println("Average Score: " + average);
-
+        double average = sum / 10;
+        
+        // Print results
+        System.out.println("Average score: " + average);
     }
 }
