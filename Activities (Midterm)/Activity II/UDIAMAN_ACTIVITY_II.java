@@ -16,8 +16,8 @@ import java.util.Scanner;
             sum += score[i];
 
         }
-        average=(double)10;
-         System.out.print("average "+average    );
+        average=(double)sum/10;
+         System.out.print("average: "+average);
 
     }
 }
