@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class CANEZARES_ACTIVITY_III {
+public class AGUILOS_ACTIVITY_III {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
