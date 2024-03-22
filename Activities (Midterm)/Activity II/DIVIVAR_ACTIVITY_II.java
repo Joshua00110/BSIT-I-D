@@ -18,4 +18,3 @@ public class DIVIVAR_ACTIVITY_II{
         System.out.println("Your Average score is: " + average);
     }
 }
-+
