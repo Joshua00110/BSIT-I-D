@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 public class LARVIO_ACTIVITY_I {
     public static void main(String[] args) {
         double length= getlength();
