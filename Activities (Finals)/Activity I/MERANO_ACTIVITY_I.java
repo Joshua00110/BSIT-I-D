@@ -15,8 +15,6 @@ public class MERANO_ACTIVITY_I {
 
     public static void main(String [] args){
        
-       int width = width();
-       int length = length();
        int result = width()*length();
        System.out.println("Area of the rectangle is "+ result);
        
