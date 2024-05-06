@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class AGUILOS_ACTIVITY_I {
+public class PALAO_ACTIVITY_I {
     public static void main(String []args){
 
         double length = inputL();
