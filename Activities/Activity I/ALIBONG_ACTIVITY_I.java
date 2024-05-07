@@ -1,4 +1,4 @@
-public class ALIBONG_ACTIVITY_1 {
+public class ALIBONG_ACTIVITY_I {
     public static void main(String[] args) {
         int x = 10, y = 20, z = 30;
 
