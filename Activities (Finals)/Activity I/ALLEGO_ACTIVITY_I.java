@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class ALLEGO_ACTIVITY_I_FINALS {
+public class ALLEGO_ACTIVITY_I{
     static int width(){
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the width of the rectangle: ");
