@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class ALLEGO_ACTIVITY_II_FINALS {
+public class ALLEGO_ACTIVITY_II {
     static void conversion (int feet){
     int res = feet * 12;
     System.out.println("Conversion of feet to Inches: " + res);
