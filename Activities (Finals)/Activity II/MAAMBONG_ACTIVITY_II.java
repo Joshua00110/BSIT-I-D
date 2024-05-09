@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class MAAMBONG_FINAL_II {
+public class MAAMBONG_ACTIVITY_II {
     static void Feet(double feet) {
         System.out.println(feet * 12);
 
