@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class MAAMBONG_FINAL_I {
+public class MAAMBONG_ACTIVITY_I {
 
     static double length() {
         Scanner sc = new Scanner(System.in);
